@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FaceRecognition.cpp">
+    <ClCompile Include="FrequencyCounting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

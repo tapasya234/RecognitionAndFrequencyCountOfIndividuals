@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FaceRecognition.cpp" />
+    <ClCompile Include="FrequencyCounting.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{766D5F36-CC05-4D69-A000-51AEA1F51005}</ProjectGuid>
@@ -71,6 +71,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LibraryPath>E:\OpenCV-2.4.13\opencv\build\x64\vc12\lib;$(LibraryPath)</LibraryPath>
     <IncludePath>E:\OpenCV-2.4.13\opencv\build\include;$(IncludePath)</IncludePath>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
